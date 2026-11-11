@@ -1,0 +1,35 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Go backend build output
+backend/*.exe
+backend/prodtrack-backend
+backend/test_data.json
+
+# Secrets - keep keys out of git (commit the .env.example files instead)
+.env
+.env.*
+!.env.example
+backend/.env
